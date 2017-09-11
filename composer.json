@@ -1,0 +1,27 @@
+{
+    "name": "alifcapital/laravel-centrifugo",
+    "description": "Laravel integration for Centrifugo",
+    "require": {
+        "sl4mmer/phpcent": "^1.0",
+        "illuminate/support": "4.*|5.*"
+    },
+    "authors": [
+        {
+            "name": "Mustafo Zubaydulloev",
+            "email": "mustafo.zubaydulloev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Alif\\Centrifugo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": "Alif\\Centrifugo\\CentrifugoServiceProvider",
+            "aliases": {
+                "Centrifugo": "Alif\\Centrifugo\\CentrifugoFacade"
+            }
+        }
+    }
+}
