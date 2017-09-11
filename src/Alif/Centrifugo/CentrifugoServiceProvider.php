@@ -25,8 +25,8 @@ class CentrifugoServiceProvider extends ServiceProvider
         $this->mergeConfigFrom($configPath, 'centrifugo');
 
         $this->app->singleton('centrifugo', function (Application $app) {
-            $client = new Client($app['config']->get('host'));
-            $client->setSecret($app['config']->get('secret'));
+            $client = new Client($app['config']->get('centrifugo.host'));
+            $client->setSecret($app['config']->get('centrifugo.secret'));
             return $client;
         });
     }
