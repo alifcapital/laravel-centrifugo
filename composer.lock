@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0247b8dd30d88d1b87c7b3fc79341b3b",
+    "content-hash": "8f7b9e2ad3d4ea1c0be13ea22faf8ff4",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -326,16 +326,16 @@
         },
         {
             "name": "sl4mmer/phpcent",
-            "version": "1.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/centrifugal/phpcent.git",
-                "reference": "96b9e3be9b89b125a469f220ba3fb272198cb399"
+                "reference": "23a91d0e49b23be09a72ac4a41b1d5982a871219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/centrifugal/phpcent/zipball/96b9e3be9b89b125a469f220ba3fb272198cb399",
-                "reference": "96b9e3be9b89b125a469f220ba3fb272198cb399",
+                "url": "https://api.github.com/repos/centrifugal/phpcent/zipball/23a91d0e49b23be09a72ac4a41b1d5982a871219",
+                "reference": "23a91d0e49b23be09a72ac4a41b1d5982a871219",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +357,7 @@
             "keywords": [
                 "centrifugo"
             ],
-            "time": "2016-02-29T13:53:36+00:00"
+            "time": "2017-02-02 08:19:04"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -487,7 +487,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sl4mmer/phpcent": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
