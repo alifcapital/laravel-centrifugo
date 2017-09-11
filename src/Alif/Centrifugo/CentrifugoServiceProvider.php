@@ -4,7 +4,6 @@ namespace Alif\Centrifugo;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use phpcent\Client;
 
 class CentrifugoServiceProvider extends ServiceProvider
 {
