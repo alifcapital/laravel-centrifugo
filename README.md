@@ -1,6 +1,7 @@
 # README #
 
 Laravel integration for [phpcent](https://github.com/centrifugal/phpcent)
+It allows you to use phpcent connection client as a singleton
 
 ### How do I get set up? ###
 
