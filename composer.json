@@ -2,7 +2,7 @@
     "name": "alifcapital/laravel-centrifugo",
     "description": "Laravel integration for Centrifugo",
     "require": {
-        "sl4mmer/phpcent": "dev-master",
+        "sl4mmer/phpcent": "1.0.5",
         "illuminate/support": "4.*|5.*"
     },
     "authors": [
